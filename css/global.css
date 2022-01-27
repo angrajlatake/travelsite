@@ -1,0 +1,40 @@
+:root {
+
+}
+* {
+    box-sizing: border-box;
+    /* border: dotted 1px black; */
+    margin: 0
+}
+body {
+    font-family: Verdana;
+}
+/* ----------NAVIGATION--------------- */
+/* Styling is pending */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 2.5rem;
+    position: sticky;
+}
+.nav-bar__list{
+    display: flex;
+    list-style-type: none;
+}
+.nav-bar__item {
+    padding: 0 .625rem;
+}
+.nav-bar__link {
+    text-decoration: none;
+}
+
+.btn {
+    font-size: 1rem;
+    background-color: #DB7A4E;
+    color: aliceblue;
+    padding: .625rem 2.5rem;
+    border-radius: 1.25rem;
+    border: 0;
+
+}

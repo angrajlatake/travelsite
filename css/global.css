@@ -8,15 +8,20 @@
 }
 body {
     font-family: Verdana;
+
 }
+
 /* ----------NAVIGATION--------------- */
 /* Styling is pending */
 .nav-bar {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1.25rem 2.5rem;
-    position: sticky;
+    position: fixed;
+    top: 0px;
+    background-color: white;
 }
 .nav-bar__list{
     display: flex;
@@ -27,6 +32,11 @@ body {
 }
 .nav-bar__link {
     text-decoration: none;
+    padding-bottom: .625rem;
+    color: #335576;
+}
+.nav-bar__link--active {
+    border-bottom: .3125rem solid #DB7A4E
 }
 
 .btn {
@@ -37,4 +47,51 @@ body {
     border-radius: 1.25rem;
     border: 0;
 
+}
+
+.footer {
+    background-color: #fefaf5;
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem;
+    
+}
+.footer-card {
+    margin: 1.25rem;
+    display: flex;
+    flex-direction: column;
+}
+.footer-card__title {
+    color: #335576;
+}
+.footer-card__body {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.25rem 0;
+}
+.footer-card__subtitle {
+    color: #DB7A4E;
+    font-size: 0.8rem;
+    padding-bottom: .625rem
+}
+.footer-card__body--contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-card__section{
+    margin: 0 1.25rem 0 0;
+    padding: 0 1.25rem 0 0;
+}
+.footer-card__subtitle {
+    text-transform: uppercase;
+}
+.footer-card__copy {
+    color: #335576;
+}
+.footer-card__social-img {
+    width: 1.875rem;
+    height: 1.875rem;
+    margin-right: 1.875rem;
+    object-fit: contain;
 }

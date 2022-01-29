@@ -1,12 +1,17 @@
 .hero{
     background-color: #fefaf5;
     display: flex;
-    flex-wrap: wrap;
-    /* height: 50vh; */
+    height: 60vh;
     padding: 1.25rem;
     justify-content: space-around;
-
+    margin-top: 4.1563rem;
     
+}
+.hero__container {
+    display: flex;
+    padding: 1.25rem;
+    flex-wrap: wrap;
+
 }
 .hero__text {
     display: flex;
@@ -14,15 +19,72 @@
     justify-content: center;
     gap: 1.875rem;
     align-items: baseline;
-    width: 50%;
+    max-width: 50%;
+    margin: auto;
     padding: 1.25rem;
+    color: #335576;
     
 }
 
 .hero__img{
     display: flex;
     justify-content: center;
-    width: 50%;
-    padding: 1.25rem;
+    max-width: 60%;
+    height: 100%;
+    /* padding: 1.25rem; */
+    margin: auto;
 
+}
+
+.img__box {
+    padding: 1.25rem;
+    /* object-fit:contain; */
+}
+.recommendations {
+    padding: 3.75rem;
+    color: #335576;
+}
+.recommendation__title {
+    margin-left: 2.5rem;
+    padding: 1.25rem;
+}
+.cards__section {
+    display: flex;
+    justify-content: center;
+
+}
+.card {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 24.375rem;
+    width: 16.25rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: .3125rem;
+    border: .0625rem solid rgba(0, 0, 0, 0.200);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.200) ;
+    padding: 1.25rem;
+    margin: 1.25rem;
+    overflow: hidden;
+    
+
+}
+
+.card__title{
+    color: #fefaf5;
+}
+
+.card__link {
+    text-decoration: none;
+}
+.card--hawaii {
+    background-image: url(../assets/Images/hawaii.jpg);
+    
+}
+.card--iceland {
+    background-image: url(../assets/Images/iceland.jpg);
+}
+.card--greece {
+    background-image: url(../assets/Images/greece.jpg);
 }

@@ -1,0 +1,65 @@
+.destination__hero {
+  background-image: url(../assets/Images/hawaii.jpg);
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.destination__hero--greece {
+    background-image: url(../assets/Images/greece.jpg);
+}
+.destination__hero--iceland {
+    background-image: url(../assets/Images/iceland.jpg);
+}
+.destination__itinerary {
+  margin-top: 4.1563rem;
+  padding: 1.25rem;
+  height: 100%;
+}
+.destination__title {
+  margin: 1.25rem;
+  color: whitesmoke;
+  font-size: 4rem;
+  padding: 1.25rem;
+}
+.itinerary {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+}
+.itinerary-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: whitesmoke;
+  border-radius: 0.3125rem;
+  margin: 1.25rem;
+  text-align: center;
+  padding: 1.25rem;
+}
+.itinerary-card__header {
+  padding: 0 2.5rem;
+  border-bottom: 0.1875rem solid black;
+  margin-bottom: 0.625rem;
+}
+.itinerary-card__list {
+  list-style-type: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 0;
+}
+.list__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fefaf5;
+  height: 2.5rem;
+  width: 12.5rem;
+  margin: 0.625rem 0;
+  padding: 0 2.5rem;
+}
